@@ -14,6 +14,10 @@
  *= require_self
  */
 
+table {
+    margin: 0 auto;
+}
+
 .rcorners2 {
     border-radius: 8px;
     padding: 20px;
