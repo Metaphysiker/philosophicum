@@ -14,12 +14,37 @@
  *= require_self
  */
 
+.rechtsblau{
+    text-align: right;
+    background-color: #0bfdff;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.rechtsblau > a {
+    color: #ffffff;
+}
+
+.rechtsblau > a:hover {
+    color: #cdd1d1;
+    text-decoration: none;
+}
+
+
 .centerpic{
     text-align:center;
 }
 
 .navbar-default{
     background-image: linear-gradient(to bottom, #20fffa 0%, #0bfdff 100%);
+}
+
+.navbar-default1{
+    background-image: linear-gradient(to bottom, #20fffa 0%, #ff2500 100%); /* would work, but bit chaotic" */
 }
 
 .navbar-default .navbar-brand {
