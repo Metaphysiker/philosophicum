@@ -1,26 +1,21 @@
-<table>
+<%= content_tag :div, class: "big" do %>
+
+<table style="align: center; width: 70%">
   <tr>
-    <th>
+    <th colspan="2">
       <div class="centerpic" %>
-        <%= image_tag("mensch.jpg", height:"200") %>
+        <%= image_tag("mensch.jpg", width:"100%") %>
       </div>
     </th>
     <th><div class="rcorners2">Event 1 <br> Event 2 <br></div></th>
   </tr>
-</table>
-
-<div class="centerpic">
-<%= content_tag :div, class: "big" do %>
-    <table style="text-align: center">
       <tr>
-        <th>Title</th>
-        <th>Genre</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>a</td>
-        <td>b</td>
-        <td>c</td>
+        <td style="padding-right: 10px"><div class="philcolumn">Title</div><br><div class="philcolumn">Kurzmeldung Philosophische Forschung
+          (Alumni / Jobs/ Publikationen/ CFP)</div></td>
+        <td style="padding-right: 10px; align: right"><div class="philcolumn">Title</div><br><div class="philcolumn">Kurzmeldung Philosophische Forschung
+          (Alumni / Jobs/ Publikationen/ CFP)</div></td>
+        <td><div class="philcolumn">Title</div><br><div class="philcolumn">Kurzmeldung Philosophische Forschung
+          (Alumni / Jobs/ Publikationen/ CFP)</div></td>
       </tr>
     </table>
 <% end %>
@@ -33,3 +28,4 @@
     c<br>
 <% end %>
 </div>
+

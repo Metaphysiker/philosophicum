@@ -18,10 +18,20 @@ table {
     margin: 0 auto;
 }
 
+.philcolumntable > th {
+    margin: 20px;
+}
+
+.philcolumn{
+    width: 80%;
+    border-radius: 8px;
+    background-color: #cdd1d1;
+    padding: 10px;
+}
+
 .rcorners2 {
     border-radius: 8px;
-    padding: 20px;
-    width: 100px;
+    width: 50%;
     height: 200px;
     background-color: #cdd1d1;
 }
